@@ -1,0 +1,195 @@
+{
+  "bytes": 27175,
+  "count_of_rows": 115,
+  "hash": "a3a053e63c4b3602c11e573efb1d755f",
+  "name": "london-underground-performance",
+  "profile": "data-package",
+  "resources": [
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/xls",
+      "name": "key-trends",
+      "path": "data/key-trends.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Period and Financial year",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Reporting Period",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Days in period",
+            "type": "integer"
+          },
+          {
+            "format": "%Y-%m-%dT%H:%M:%S",
+            "name": "Period ending",
+            "type": "datetime"
+          },
+          {
+            "format": "%Y-%m-%dT%H:%M:%S",
+            "name": "Month",
+            "type": "datetime"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Number of Lost Customer Hours",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Operated Kms (Peak and Off Peak)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "% of Scheduled Operated",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Excess Journey Time (mins)",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/xls",
+      "name": "lost-customers-hours",
+      "path": "data/lost-customers-hours.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Financial Year",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Period 1",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Period 2",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Period 3",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Period 4",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Period 5",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Period 6",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Period 7",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Period 8",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Period 9",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Period 10",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Period 11",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Period 12",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Period 13",
+            "type": "any"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "London underground performance"
+}
