@@ -1,2 +1,2 @@
-openpyxl==3.0.2
-dataflows==0.5.7
+openpyxl>=3.1.5
+dataflows>=0.5.7

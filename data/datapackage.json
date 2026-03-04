@@ -1,11 +1,12 @@
 {
-  "bytes": 27175,
-  "count_of_rows": 115,
-  "hash": "a3a053e63c4b3602c11e573efb1d755f",
+  "bytes": 19026,
+  "count_of_rows": 136,
+  "hash": "926accd84f6933e1d73e910a0af6d1a4",
   "name": "london-underground-performance",
   "profile": "data-package",
   "resources": [
     {
+      "bytes": 14772,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -17,7 +18,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "mediatype": "text/xls",
+      "hash": "3715f8013f1dc644c1c6d43dac7a4afa",
       "name": "key-trends",
       "path": "data/key-trends.csv",
       "profile": "tabular-data-resource",
@@ -26,55 +27,47 @@
           {
             "format": "default",
             "name": "Period and Financial year",
-            "type": "string"
+            "type": "any"
           },
           {
             "format": "default",
             "name": "Reporting Period",
-            "type": "integer"
+            "type": "any"
           },
           {
             "format": "default",
             "name": "Days in period",
-            "type": "integer"
+            "type": "any"
           },
           {
-            "format": "%Y-%m-%dT%H:%M:%S",
+            "format": "default",
             "name": "Period ending",
-            "type": "datetime"
+            "type": "any"
           },
           {
-            "format": "%Y-%m-%dT%H:%M:%S",
+            "format": "default",
             "name": "Month",
-            "type": "datetime"
+            "type": "any"
           },
           {
-            "decimalChar": ".",
             "format": "default",
-            "groupChar": "",
             "name": "Number of Lost Customer Hours",
-            "type": "number"
+            "type": "any"
           },
           {
-            "decimalChar": ".",
             "format": "default",
-            "groupChar": "",
             "name": "Operated Kms (Peak and Off Peak)",
-            "type": "number"
+            "type": "any"
           },
           {
-            "decimalChar": ".",
             "format": "default",
-            "groupChar": "",
             "name": "% of Scheduled Operated",
-            "type": "number"
+            "type": "any"
           },
           {
-            "decimalChar": ".",
             "format": "default",
-            "groupChar": "",
             "name": "Excess Journey Time (mins)",
-            "type": "number"
+            "type": "any"
           }
         ],
         "missingValues": [
@@ -83,6 +76,7 @@
       }
     },
     {
+      "bytes": 4254,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -94,7 +88,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "mediatype": "text/xls",
+      "hash": "a95ee208f2018d60e78d7647a04210d1",
       "name": "lost-customers-hours",
       "path": "data/lost-customers-hours.csv",
       "profile": "tabular-data-resource",
@@ -155,29 +149,39 @@
             "type": "number"
           },
           {
+            "decimalChar": ".",
             "format": "default",
+            "groupChar": "",
             "name": "Period 8",
-            "type": "any"
+            "type": "number"
           },
           {
+            "decimalChar": ".",
             "format": "default",
+            "groupChar": "",
             "name": "Period 9",
-            "type": "any"
+            "type": "number"
           },
           {
+            "decimalChar": ".",
             "format": "default",
+            "groupChar": "",
             "name": "Period 10",
-            "type": "any"
+            "type": "number"
           },
           {
+            "decimalChar": ".",
             "format": "default",
+            "groupChar": "",
             "name": "Period 11",
-            "type": "any"
+            "type": "number"
           },
           {
+            "decimalChar": ".",
             "format": "default",
+            "groupChar": "",
             "name": "Period 12",
-            "type": "any"
+            "type": "number"
           },
           {
             "format": "default",
