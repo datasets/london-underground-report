@@ -1,0 +1,168 @@
+{
+  "name": "london-underground-report",
+  "title": "London underground performance",
+  "description": "London Underground performance metrics, including key trends and lost customer hours.",
+  "profile": "data-package",
+  "licenses": [
+    {
+      "name": "Open Government Licence v3.0",
+      "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "title": "Open Government Licence v3.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "London Datastore",
+      "path": "https://data.london.gov.uk",
+      "title": "London Datastore"
+    }
+  ],
+  "resources": [
+    {
+      "name": "key-trends",
+      "path": "data/data/key-trends.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Period and Financial year",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Reporting Period",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Days in period",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Period ending",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Month",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Number of Lost Customer Hours",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Operated Kms (Peak and Off Peak)",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "% of Scheduled Operated",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Excess Journey Time (mins)",
+            "type": "any",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "lost-customers-hours",
+      "path": "data/data/lost-customers-hours.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Financial Year",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Period 1",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 2",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 3",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 4",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 5",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 6",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 7",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 8",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 9",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 10",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 11",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 12",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Period 13",
+            "type": "any",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "version": "0.1.0"
+}
